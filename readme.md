@@ -1,1 +1,1 @@
-Hello World!
+Simple HTML CV page
