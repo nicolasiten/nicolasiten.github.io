@@ -202,3 +202,23 @@ html, .grid-container { min-height: 100%; margin: 0; }
 .icon-heading {
   display: inline-block;
 }
+
+li {
+	font-size: 0.9em;
+	margin-bottom: 7px;
+}
+
+ul {
+  margin: 0;
+  padding-inline-start: 5px;
+}
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
